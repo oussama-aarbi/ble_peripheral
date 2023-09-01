@@ -479,7 +479,7 @@ class BlePeripheralPlugin : FlutterPlugin, BlePeripheralChannel, ActivityAware,
                     offset,
                     value
                 )
-                Log.e(TAG, "onDescriptorWriteRequest, uuid: " + descriptor.uuid)
+                Log.e(TAG, "onDescriptorWriteRequest oa, uuid: " + descriptor.uuid)
             }
         }
 
